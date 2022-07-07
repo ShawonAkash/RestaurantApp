@@ -7,7 +7,7 @@ import { getAllFoodItems } from './utills/firebaseFunctions'
 import { actionType } from './context/reducer'
 
 const App = () => {
-  const [{}, dispatch] = useStateValue()
+  const [{ foodItem }, dispatch] = useStateValue()
 
   const fetchData = async () => {
     await getAllFoodItems().then((data) => {
