@@ -41,6 +41,7 @@ module.exports = {
         620: '620px',
       },
       screens: {
+        sxsm: '300px',
         xsm: '420px',
         sm: '640px',
         md: '768px',
@@ -48,7 +49,7 @@ module.exports = {
         xl: '1200px',
         xxl: '1333px',
         xxxl: '1500px',
-        '2xl': '1536px',
+        sxl: '1700px',
       },
       colors: {
         headingColor: '#2e2e2e',
